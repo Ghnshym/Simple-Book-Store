@@ -2,8 +2,8 @@
 <?php
 // Replace these variables with your MySQL server credentials
 $hostname = 'localhost';
-$username = 'your_mysql_username';
-$password = 'your_mysql_password';
+$username = 'root';
+$password = '';
 
 // Connect to MySQL server
 $connection = new mysqli($hostname, $username, $password);
